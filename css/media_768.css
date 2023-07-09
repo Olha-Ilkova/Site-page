@@ -1,0 +1,176 @@
+@media screen and (max-width: 768px){
+	body{
+		width: 100%;
+	}
+	.header{
+		width: 100%;
+	}
+	.header__logo{
+		display: none;
+	}
+	.header__container{
+		width: 87%;
+	}
+	
+	.header__nav ul{
+		display: none;
+	}
+	.header__navBurger{
+		display: block;
+		position: absolute;
+		box-sizing: border-box;
+		z-index: 4;
+		right: 43px;
+		top: 30px;
+	}
+	.header__langBtn{
+		display: none;
+	}
+	main{
+		width: 100%;
+	}
+	.first__section{
+		height: 944px;
+		box-sizing: border-box;
+	    flex-direction: column;	
+	    padding: 40px;
+	}
+	.first__sectionInfo{
+		display: flex;
+    	flex-direction: column;
+    	align-items: center;
+	}
+	div[class^=first__sectionInfo]{
+		text-align: center;
+	}
+
+	.first__sectionGraph img{
+		height: 450px;
+	}
+	.second__section{
+		box-sizing: border-box;
+		height: 3201px;
+		padding: 120px 40px;
+	}
+	.instructionsForStarting__step > div{
+		width: 329px;
+		height: 233px;
+		z-index: 100;
+	}
+	.instructionsForStarting__stepLineRight{
+		z-index: 1;
+		left: 155px;
+		top: 110px;
+	}
+	.instructionsForStarting__stepLineLeft{
+    	left: 162px;
+	    top: 282px;
+	}
+    
+	.instructionsForStarting__step__2{
+		left: 365px;
+	}
+	.instructionsForStarting__stepLineRight__2{
+		left: 155px;
+	}
+	.instructionsForStarting__step__4{
+		left: 365px;
+    	top: 503px;
+	}
+	.Reviews{
+		flex-direction: column;
+    	
+	}
+	.ReviewsSwitch {
+    	width: 90vw;
+    	height: 521px;
+    	position: relative;
+	}
+	.ReviewsSwitchContainer{
+	    justify-content: space-between;
+    	margin-top: 200px;
+	}
+    
+
+	.ReviewsPeople{
+		text-align: center;
+    	width: 508px;
+    	position: absolute;
+    	top: 2457px;
+    	right: 17%;
+	}
+	.ReviewsPeopleNameImages{
+		flex-direction: column;
+		align-items: center;
+	}
+	.ReviewsPeopleNameImages img{
+		width: 73px;
+	}
+	.ReviewsPeopleComment{
+		flex-direction: column;
+	}
+	.ReviewsPeopleComment > span > img {
+    	margin-right: 0px
+    }
+    #ReviewsPeopleNumber{
+        padding-left: 0px;
+    }
+    .questions{
+    	margin-top: 170px;
+    }
+    
+    .third__section{
+    	height: 1098px;
+    	flex-direction: column;
+    	padding: 48px 130px;
+    }
+	form{
+		width: 508px;
+    	height: 471px;
+    	margin-top: 48px;
+	}
+	.footer{
+		padding: 48px 40px;
+    	height: 977px;
+    	padding-top: 170px;
+	}
+	
+	.feedbackInfo__title{
+		text-align: center;
+	}
+	.footerOtherInfo{
+		flex-direction: column-reverse;
+    	text-align: center;
+    	align-items: center;
+    	justify-content: space-evenly;
+    	height: 730px;
+	}
+	ul{
+		display: flex;
+    	width: 688px;
+    	justify-content: space-between;;
+	}
+	.footerOtherInfo__moreInfo{
+		width: 508px;
+	}
+	.footerOtherInfo__subtitle{
+		width: 100%!important;
+		text-align: left;
+	}
+	.footerInfoAboutTheAuthor{
+		width: 100%;
+		flex-direction: column;
+    	align-items: center;
+	}
+	.footerOtherInfo > img{
+		position: absolute;
+		z-index: 100;
+    	bottom: -4610px;
+    
+	}
+}
+	
+	
+	
+
+	

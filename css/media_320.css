@@ -1,0 +1,168 @@
+@media screen and (max-width: 320px){
+	body{
+		width: 100%;
+	}
+	.header{
+		width: 100%;
+	}
+	.header__logo{
+		display: block;
+	}
+	.header__container{
+		padding: 0px;
+	}
+	.header__button{
+		display: none;
+	}
+	.first__section{
+		padding: 32px 20px;
+		height: 833px;
+		background-color: rgb(232, 234, 255);
+	}
+	.first__sectionInfo{
+		width: 280px;
+
+	}
+	div[class$=_title]{
+		width: 90%;
+		font-size: 40px;
+		line-height: 44px;
+		text-align: left;
+	}
+	div[class$=subtitle]{
+		text-align: left;
+	    width: 100%;
+	}
+    .first__sectionInfo__btn{
+        width: 280px;
+    }
+    .first__sectionGraph img {
+    	height: 301px;
+	}
+	.second__section{
+	    height: 3574px;
+	    padding: 80px 20px;
+	}
+	.instructionsForStarting__stepLineRight{
+		display: none;
+	}
+	.instructionsForStarting__stepLineLeft{
+		display: none;
+	}
+	.instructionsForStarting__stepLineRight__2{
+		display: none;
+	}
+	.instructionsForStarting{
+	    height: 1350px;
+	}
+	.instructionsForStarting__step{
+		margin-top: 32px;
+		margin-right: 0px;
+	}
+	.instructionsForStarting__step > div{
+		position: initial;
+		width: 280px;
+		height: 277px;
+		border: 2px solid #4F62F6;
+		margin-bottom: 24px;
+	}
+	.Reviews {
+    	margin-top: 110px;
+	}
+	.ReviewsSwitchContainer{
+		margin-top: 501px;
+	}
+	
+	.ReviewsPeople{
+		width: 100vw;
+		top: 2595px;
+    	right: 0%;
+	}
+	.ReviewsSwitch{
+		height: 645px;
+    	position: relative;
+	}
+	.ReviewsPeopleComment div{
+	    width: 280px;
+	    margin-bottom: 130px;
+	        
+	}
+	.ReviewsPeopleComment{
+		align-items: center;
+	}
+	.questions{
+	    margin-top: 120px;
+	}
+	.questions__blockContent{
+		width: 280px;
+    	height: auto;
+    	font-size: 18px;
+    	line-height: 22px;
+    	gap: 0px;
+    	align-items: center;
+    	padding: 8px 16px
+	}
+	
+	.questions__blockContent__pointer{
+	    margin-bottom: 23px;
+	}
+	.third__section{
+		background-color: rgb(232, 234, 255);
+	    height: 1138px;
+	    padding: 48px 20px;
+	}
+	.feedbackInfo__link{
+		width: 280px;
+	}
+	form{
+		width: 280px;
+		height: 415px;
+		padding: 48px 16px;
+	}
+	form > input, textarea{
+		width: 248px;
+    	height: 40px;
+    	padding: 7px 16px;
+    	box-sizing: border-box;
+	}
+	textarea{
+		height: 90px;
+	}
+	.footer{
+		height: 1507px;
+		padding: 0px;
+		padding-top: 108px;
+		box-sizing: border-box;
+	}
+	.footerOtherInfo{
+		padding: 0px 20px;
+		height: 1250px;
+		justify-content: flex-end;
+	}
+	
+	.footerOtherInfo > img{
+		bottom: -4865px;
+	}
+	ul{
+		width: 100vw;
+		flex-direction: column;
+		text-align: left;
+		margin-left: 40px;
+    	
+	}
+	.footerOtherInfo__moreInfo{
+	    width: 280px;
+	}
+	.footerInfoAboutTheAuthor{
+	    margin-top: 0px;
+	        margin-left: 0px;
+	}
+	
+	
+	
+    
+	
+	
+	
+
+	
